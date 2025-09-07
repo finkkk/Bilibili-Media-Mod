@@ -1,0 +1,11 @@
+{
+  "modmenu.nameTranslation.bilibili_media": "Bilibili WaterMedia Compatibility",
+  "modmenu.descriptionTranslation.bilibili_media": "I hate water media",
+  "modmenu.summaryTranslation.bilibili_media": "Bilibili plugin for WaterMedia",
+  "title.bilibili_media.config": "Bilibili WaterMedia Compatibility Mod Settings",
+  "config.bilibili_media.enable": "Enable Mod",
+  "config.bilibili_media.use_bb_down": "Prefer using BBDown for downloads",
+  "config.bilibili_media.enable_range_requests": "[beta] Enable Range Requests",
+  "config.bilibili_media.enable_range_requests.tip": "This option is unstable and may cause WaterMedia to fail to display videos",
+  "config.bilibili_media.clear_on_start": "Clear cache on startup"
+}

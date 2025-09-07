@@ -1,0 +1,11 @@
+{
+  "modmenu.nameTranslation.bilibili_media": "哔哩哔哩WaterMedia兼容",
+  "modmenu.descriptionTranslation.bilibili_media": "使得WaterMedia传入B站链接可直接播放B站视频",
+  "modmenu.summaryTranslation.bilibili_media": "WaterMedia的哔哩哔哩插件",
+  "title.bilibili_media.config": "哔哩哔哩WaterMedia兼容 模组设置",
+  "config.bilibili_media.enable": "启用模组",
+  "config.bilibili_media.use_bb_down": "优先使用BBDown进行下载",
+  "config.bilibili_media.enable_range_requests": "[beta]启用断点续传",
+  "config.bilibili_media.enable_range_requests.tip": "此项不稳定，可能导致WaterMedia无法显示视频",
+  "config.bilibili_media.clear_on_start": "每次启动清理视频缓存"
+}

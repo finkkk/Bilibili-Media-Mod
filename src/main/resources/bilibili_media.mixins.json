@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.finkkk.bilibili_media.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "IHateWaterMediaMixin",
+    "NetworkAPIMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
