@@ -54,7 +54,7 @@ public class SimpleFileServer {
         }
 
         if (server == null) {
-            String msg = "[bilibili_media] 启动本地服务器失败，端口范围已尝试完毕，本地视频缓存功能将禁用";
+            String msg = "[B站解析模组] 启动本地服务器失败，端口范围已尝试完毕，本地视频缓存功能将禁用";
             BiliBiliMedia.LOGGER.error(msg);
             setPendingMessage(msg);
             return null;
@@ -65,7 +65,7 @@ public class SimpleFileServer {
         server.setExecutor(executor);
         server.start();
 
-        String msg = "[B站解析模组] 本地HTTP服务器已启动，用于。端口 " + port;
+        String msg = "[B站解析模组] 本地HTTP服务器已启动，端口 " + port;
         BiliBiliMedia.LOGGER.info(msg);
         setPendingMessage(msg);
         return server;
